@@ -1,0 +1,4 @@
+server:
+  port: 8002
+configuracion:
+  texto: Configurando Entorno de Desarrollo
