@@ -13,7 +13,7 @@ spring:
         filters:
           - CircuitBreaker=productos
           - StripPrefix=2
-          #- Example= Hello this is my message, user, JorgeMina
+          - ExampleCookie=Hola mi mensaje personalizado, usuario, DigitalHouse
       - id: servicio-items
         uri: lb://servicio-items
         predicates:
