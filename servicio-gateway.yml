@@ -13,7 +13,7 @@ spring:
         filters:
           # - CircuitBreaker=productos
           - name: CircuitBreaker
-            arg:
+            args:
               name: productos
               statusCodes: 500
           - StripPrefix=2
