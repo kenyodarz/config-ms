@@ -16,6 +16,7 @@ spring:
             args:
               name: productos
               statusCodes: 500
+              fallbackUri: forward:/api/items/all
           - StripPrefix=2
           - ExampleCookie=Hola mi mensaje personalizado, usuario, DigitalHouse
       - id: servicio-items
