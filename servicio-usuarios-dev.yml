@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/AlmacenZ1
     username: postgres
-    password: cdm
+    password: barcelona
     driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false
